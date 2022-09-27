@@ -1,0 +1,136 @@
+@import url("root.css");
+
+.jogo-do-bicho{
+    display: block;
+    background-color: var(--cor-navy-blue);
+    padding-bottom: 50px;
+}
+
+.jogo-titulo{
+    
+    text-align: center;
+    margin-bottom: 1em;
+    padding-top: 1em;
+    color: var(--cor-vermelho);
+    font-family: var(--fonte-Oleo-Script);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.lista-jogo-do-bicho{
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.last-grid{
+    grid-column-start: 2;
+    grid-row-start: 9;
+}
+
+.itens-jogo-do-bicho{
+    background-color: var(--cor-scarlet);
+    border: black solid 1px;
+    display: flex;
+    margin: 5px auto;
+    padding: 1em 0.2em;
+    border-radius: 15px;
+}
+
+.jogo-do-bicho-numero{
+    color: var(--cor-beige);
+}
+
+.jogo-do-bicho-img{
+    border-radius: 15px;
+    width: 4em;
+    padding: 2px;
+    border: var(--cor-ebony) solid 1px;
+    margin: 3px;
+}
+
+.jogo-do-bicho-nome{
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+.jogo-bicho-contagem{
+    color: var(--cor-beige);
+    font-weight: bolder;
+}
+
+.itens-jogo-do-bicho:hover{
+    background-color: var(--cor-ebony);
+    transition: 1s;
+    color: var(--cor-scarlet);
+}
+@media screen and (min-width: 1024px) {
+    .jogo-do-bicho{
+        display: block;
+        background-color: var(--cor-navy-blue);
+        padding-bottom: 50px;
+    }
+
+    .jogo-titulo{
+        
+        text-align: center;
+        margin-bottom: 1em;
+        padding-top: 1em;
+        color: var(--cor-vermelho);
+        font-family: var(--fonte-Oleo-Script);
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .lista-jogo-do-bicho{
+        width: 70%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .last-grid{
+        grid-column-start: auto;
+        grid-row-start: auto;
+    }
+
+    .itens-jogo-do-bicho{
+        background-color: var(--cor-scarlet);
+        border: black solid 1px;
+        display: flex;
+        margin: 5px auto;
+        padding: 1em 0.2em;
+        border-radius: 15px;
+    }
+
+    .jogo-do-bicho-numero{
+        color: var(--cor-beige);
+    }
+
+    .jogo-do-bicho-img{
+        border-radius: 15px;
+        width: 4em;
+        padding: 2px;
+        border: var(--cor-ebony) solid 1px;
+        margin: 3px;
+    }
+
+    .jogo-do-bicho-nome{
+        font-weight: bolder;
+        text-align: center;
+    }
+    
+
+    .jogo-bicho-contagem{
+        color: var(--cor-beige);
+        font-weight: bolder;
+    }
+
+    .itens-jogo-do-bicho:hover{
+        background-color: var(--cor-ebony);
+        transition: 1s;
+        color: var(--cor-scarlet);
+    }
+}

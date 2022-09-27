@@ -1,0 +1,33 @@
+:root{
+    --cor-turquoise: #3FBEE0;
+    --cor-navy-blue: #193855;
+    --cor-beige: #E9DAC4;
+    --cor-vermelho: #CB0E55;
+
+    --cor-ebony: #111D1D;
+    --cor-forest-green: #00735C;
+    --cor-taupe: #D6CDCC;
+    --cor-scarlet: #9F2B25;
+
+    
+    --cor-terciaria: #348888;
+
+
+    --fonte-roboto:'Roboto', sans-serif;
+    --fonte-Oleo-Script:'Oleo Script', cursive;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-color: var(--cor-turquoise);
+    font-family: var(--fonte-roboto);
+    background-color: var();
+}
+
+
+
+

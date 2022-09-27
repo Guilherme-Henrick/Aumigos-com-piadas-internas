@@ -1,0 +1,94 @@
+@import url("root.css");
+
+
+.home-page{
+    height: 100vh;
+    background-image: url("../img/background_mobile.jpg");
+    background-position: center;
+    background-size: cover;
+    background-color: var(--cor-ebony);
+    background-blend-mode: overlay;
+    display: flex;
+    text-align: center;
+}
+
+.call-to-action-main{
+    margin-top: 75%;
+}
+
+.call-to-action-titulo{
+    font-family: var(--fonte-Oleo-Script);
+    color: var(--cor-vermelho);
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.call-to-action-texto{
+    color: var(--cor-beige);
+    width: 90%;
+    margin: auto;
+}
+
+.call-to-action-button{
+    font-size: 18px;
+    padding: 0.5em 2em; 
+    background-color: var(--cor-navy-blue);
+    border: var(--fonte-Oleo-Script) solid 1px;
+    border-radius: 20px;
+    margin-top: 2em;
+    color: var(--cor-turquoise);
+    font-weight: bold;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .home-page{
+    height: 100vh;
+    background-image: url("../img/main_background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-color: var(--cor-ebony);
+    background-blend-mode: overlay;
+    display: flex;
+    text-align: center;
+}
+
+.call-to-action-main{
+    width: 60%;
+    margin: auto ;
+}
+
+.call-to-action-titulo{
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    color: var(--cor-vermelho);
+    font-family: var(--fonte-Oleo-Script);
+    font-size: 40px;
+}
+
+.call-to-action-texto{
+    color: var(--cor-beige);
+    width: 90%;
+    margin: auto;
+}
+
+.call-to-action-button{
+    font-size: 18px;
+    padding: 0.5em 2em; 
+    background-color: var(--cor-navy-blue);
+    border: var(--fonte-Oleo-Script) solid 1px;
+    border-radius: 20px;
+    margin-top: 2em;
+    color: var(--cor-turquoise);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.call-to-action-button:hover{
+    transition: 1s;
+    color: var(--cor-beige);
+    background-color: var(--cor-turquoise);
+}
+}
+

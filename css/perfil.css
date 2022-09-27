@@ -1,0 +1,236 @@
+@import url("root.css");
+
+@media screen and (max-width: 768px) {
+    
+
+    .paginaPerfil{
+        text-align: center;
+        width: 95vw;
+        background-color: var(--cor-beige);
+        margin: auto;
+        margin-top: 5em;
+
+        border-radius: 30px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .perfilInfos{
+        padding: 1.5em;
+    }
+
+    .perfilImagem{
+        width: 15em;
+        border: var(--cor-navy-blue) solid 2px;
+        border-radius: 30px;
+        margin-bottom: 2em;
+        
+    }
+
+    .titulo{
+        font-family: var(--fonte-Oleo-Script);
+        color: var(--cor-vermelho);
+        font-size: 34px;
+        margin-bottom: 0.5em;
+    }
+
+    .perfilInfosItem{
+        display: flex;
+        padding-bottom: 0.25em;
+        margin-bottom: 0.5em;
+        border-bottom: var(--cor-navy-blue) dotted 1px ;
+    }
+
+    .infosListaTitulo{
+        color: var(--cor-navy-blue);
+        font-size: 20px;
+    }
+
+    .infosListaItem{
+        font-size: 20px;
+        margin-left: auto;
+        
+    }
+
+    .perfilConteudo{
+        display: block;
+        padding: 1em;
+        background-color: var(--cor-taupe);
+        border-radius: 30px;
+    }
+
+    .conteudoInfos{
+        justify-content: center;
+        display: flex;
+        margin: 1em 0 2em 0;
+    }
+
+    .conteudoInfosTexto{
+        color: var(--cor-navy-blue);
+        font-weight: bold;
+        padding-left: 1em;
+        padding-right: 1em;
+        border-right: var(--cor-navy-blue) solid 1px;
+        border-left: var(--cor-navy-blue) solid 1px;
+    }
+
+    .aumigos{
+        border: none;
+    }
+
+    .postagens{
+        place-self: center;
+    }
+
+    .postagensTitulo{
+        font-size: 28px;
+    }
+
+    .listaPostagens{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-items: center;
+    }
+
+    .postagensItens{
+        width: 10em;
+        height: 10em;
+    }
+
+    .postagemImagem{
+        width: 8em;
+        height: 8em;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 20px;
+
+        margin-bottom: 0.25em;
+
+    }
+
+    .postagemImagemData{
+        font-size: 12px;
+        font-weight: bold;
+        color: var(--cor-navy-blue);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .paginaPerfil{
+        text-align: center;
+        height: 80vh;
+        width: 90vw;
+        background-color: var(--cor-beige);
+        margin: auto;
+        margin-top: 5em;
+
+        border-radius: 30px;
+
+        display: flex;
+    }
+
+    .perfilInfos{
+        
+        padding: 0.5em;
+        width: 35%;
+    }
+    
+    .perfilImagem{
+        width: 10em;
+        border: var(--cor-navy-blue) solid 2px;
+        border-radius: 30px;
+        margin-bottom: 2em;
+        
+    }
+
+    .titulo{
+        font-family: var(--fonte-Oleo-Script);
+        color: var(--cor-vermelho);
+        font-size: 34px;
+        margin-bottom: 0.5em;
+    }
+
+    .perfilInfosItem{
+        display: flex;
+        padding-bottom: 0.25em;
+        margin-bottom: 0.5em;
+        border-bottom: var(--cor-navy-blue) dotted 1px ;
+    }
+
+    .infosListaTitulo{
+        color: var(--cor-navy-blue);
+        font-size: 14px;
+    }
+
+    .infosListaItem{
+        font-size: 14px;
+        margin-left: auto;
+        
+    }
+
+    .perfilConteudo{
+        display: block;
+        padding: 1em;
+        background-color: var(--cor-taupe);
+        border-radius: 30px;
+        width: inherit;
+    }
+
+    .conteudoInfos{
+        justify-content: center;
+        display: flex;
+        margin: 1em 0 2em 0;
+    }
+
+    .conteudoInfosTexto{
+        color: var(--cor-navy-blue);
+        font-weight: bold;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+        border-right: var(--cor-navy-blue) solid 1px;
+        border-left: var(--cor-navy-blue) solid 1px;
+    }
+
+    .aumigos{
+        border: none;
+    }
+
+    .postagens{
+        place-self: center;
+    }
+
+    .postagensTitulo{
+        font-size: 28px;
+    }
+
+    .listaPostagens{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+
+    }
+
+    .postagensItens{
+        width: 10em;
+        height: 10em;
+    }
+
+    .postagemImagem{
+        width: 8em;
+        height: 8em;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 20px;
+
+        margin-bottom: 0.25em;
+
+    }
+    
+    .postagemImagemData{
+        font-size: 12px;
+        font-weight: bold;
+        color: var(--cor-navy-blue);
+    }
+
+}

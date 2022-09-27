@@ -1,0 +1,20 @@
+:root{
+    --cor-turquoise: #01949A;
+    --cor-navy-blue: #004369;
+    --cor-beige: #E5DDC8;
+    --cor-vermelho: #DB1F48;
+
+    --fonte-roboto:'Roboto', sans-serif;
+    --fonte-Oleo-Script:'Oleo Script', cursive;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-color: var(--cor-teal);
+    font-family: var(--fonte-roboto);
+}
+

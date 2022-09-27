@@ -1,0 +1,123 @@
+@import url("root.css");
+
+.aumigos{
+    display: block;
+    margin-bottom: 2em;
+}
+
+.aumigos-titulo{
+    text-align: center;
+    margin-top: 0.5em;
+    color: var(--cor-vermelho);
+    font-family: var(--fonte-Oleo-Script);
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.aumigos-lista{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0.5em 0 0.5em;
+}
+
+.aumigos-lista-itens{
+    background-color: var(--cor-navy-blue);
+    display: flex;
+    margin: 0.2em 0;
+    align-items: center;
+    padding: 0.7em;
+    
+    border-radius: 40px;
+}
+
+.aumigos-lista-itens-img{
+    margin: 0 0.5em 0 0;
+    width: 5em;
+    border-radius: 50px;
+    border: var(--cor-ebony) solid 1px;
+}
+
+.aumigos-lista-itens-texto{
+    color: var(--cor-beige);
+    width: 100%;
+}
+
+.aumigos-lista-itens-texto-nome{
+    color: var(--cor-scarlet);
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    padding-bottom: 0.5em;
+    border-bottom: var(--cor-ebony) solid 2px;
+}
+
+.aumigos-lista-itens-texto-conteudo{
+    font-size: 12px;
+}
+@media screen and (min-width: 1024px) {
+    .aumigos{
+        display: block;
+        height: 100vh;
+    }
+
+    .aumigos-titulo{
+        
+        text-align: center;
+        margin-top: 0.5em;
+        color: var(--cor-vermelho);
+        font-family: var(--fonte-Oleo-Script);
+        font-size: 40px;
+        font-weight: bold;
+
+    }
+
+    .aumigos-lista{
+        margin-top: 1em;
+        display: grid;
+        grid-template-columns: 40% 40%;
+        grid-auto-rows: 22%;
+        justify-content: space-evenly;
+    }
+    .aumigos-lista-itens{
+        background-color: var(--cor-navy-blue);
+        display: flex;
+        margin: 0.5em 0;
+        align-items: center;
+        padding: 1em;
+        
+        border-radius: 50px;
+    }
+
+    .aumigos-esquerda{
+        border-top-right-radius: 0;
+    }
+
+    .aumigos-direita{
+        border-top-left-radius: 0;
+    }
+
+    .aumigos-lista-itens-img{
+        margin: 0 0.5em 0 0;
+        width: 5em;
+        border-radius: 50px;
+        border: var(--cor-ebony) solid 1px;
+    }
+
+    .aumigos-lista-itens-texto{
+        color: var(--cor-beige);
+        width: 100%;
+    }
+    
+    .aumigos-lista-itens-texto-nome{
+        color: var(--cor-scarlet);
+        font-weight: bold;
+        margin-bottom: 0.5em;
+        padding-bottom: 0.5em;
+        border-bottom: var(--cor-ebony) solid 2px;
+    }
+
+    .aumigos-lista-itens-texto-conteudo{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,66 @@
+@import url("root.css");
+
+.rodape{
+    height: 50vh;
+    text-align: center;
+}
+
+.logo-rodape{
+    margin-top: 1.5em;
+}
+
+.rodape-copy{
+    margin: 1em 0;
+}
+
+.rodape-lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.disponivel-play-store{
+    width: 140px;
+    margin-top: 1em;
+}
+
+.rodape-lista-icons{
+    margin: 0.5em 0.3em 0 0.3em;
+    width: 30px;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .rodape{
+        height: 50vh;
+        text-align: center;
+    }
+
+    .logo-rodape{
+        margin-top: 1.5em;
+    }
+
+    .rodape-copy{
+        margin: 1em 0;
+    }
+    
+    .rodape-lista{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .rodape-lista-itens{
+        padding: 0 1em;
+    }
+
+    .disponivel-play-store{
+        width: 140px;
+        margin-top: 1em;
+    }
+
+    .rodape-lista-icons{
+        margin: 0.5em 0.3em 0 0.3em;
+        width: 30px;
+    }
+}

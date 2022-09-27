@@ -1,0 +1,146 @@
+@import url("root.css");
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    border-bottom: #9EF8EE solid 1px;
+    
+}
+
+.navegador{
+    height: 3em;
+    background-color: var(--cor-navy-blue);
+    
+}
+
+.container-nav-mobile{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+    padding: 0 1.5em;
+}
+
+
+.lista-nav-menu-mobile{
+    position: absolute;
+    display: none;
+    padding:  0.6em 0.6em ;
+    background-color: var(--cor-terciaria);
+    width: 50vw;
+    height: 100vh;
+    top: 0;
+    left: 0;  
+}
+
+.menu-button:focus ~ .lista-nav-menu-mobile{
+    display: block;
+}
+
+.nav-link{
+    border-bottom: #9EF8EE solid 1px;
+    padding: 1em 0em;
+    font-size: 16px;
+}
+
+.nav-lista-links-img{
+    filter: invert(100%);
+    width: 1em; 
+}
+
+.close-button-img{
+    width: 2em;
+    margin-bottom: 3em;
+}
+
+.logo{
+    font-family: var(--fonte-Oleo-Script);
+    font-weight: 700;
+    color: var(--cor-vermelho);
+    font-size: 24px;
+
+    justify-self: center;
+    
+
+}
+
+.nav-button{
+    background-color: transparent;
+    border: none;
+    
+    color: var(--cor-beige);
+}
+
+.nav-button-img{
+    filter: invert(100%);
+    width: 2em;
+}
+
+
+.lista-perfil-nav-mobile{
+    position: absolute;
+    display: none;
+    padding:  0.6em 0.6em ;
+    background-color: var(--cor-terciaria);
+    width: 50vw;
+    height: 100vh;
+    top: 0;
+    right: 0;  
+}
+
+.perfil-button:focus ~ .lista-perfil-nav-mobile{
+    display: block;
+}
+.container-nav{
+    display: none;
+}
+@media screen and (min-width: 1024px){
+    
+
+    .container-nav-mobile{
+        display: none;
+    }
+
+    .logo{
+        font-size: 34px;
+        
+    }
+
+    .container-nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 0em 1em 0 3em;
+        align-items: center;
+        height: 100%;
+    }
+
+    .nav-buttons{
+        display: flex;
+    }
+
+    .nav-buttons-img{
+        width: 1.5em;
+        padding-right: 0.5em;
+        filter: invert(100%);
+    }
+
+    .nav-buttons-desk{
+        border-right: var(--cor-turquoise) solid 1px;
+        border-left: var(--cor-turquoise) solid 1px;
+        display: flex;
+        align-items: center;
+        height: 3em;
+        padding: 0 1em;
+    }
+
+    .perfil-button-desk{
+        border: none;
+    }
+    
+    .texto-nav{
+        font-size: 18px;
+        color: white;
+    }
+
+}
